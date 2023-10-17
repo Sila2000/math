@@ -1,4 +1,4 @@
-print("Vector in Rectangular Coordinate System")
+print("Vector in 3D Rectangular Coordinate System")
 
 coord_listA = []
 x_A = float(input("Enter x_A: "))
