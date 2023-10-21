@@ -1,3 +1,4 @@
+#author Sila2000
 print("Vector in 3D Rectangular Coordinate System")
 
 coord_listA = []
