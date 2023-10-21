@@ -1,3 +1,4 @@
+#author Sila2000
 import math
 
 init_coord_list = []
