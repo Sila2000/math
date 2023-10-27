@@ -1,6 +1,6 @@
 #author Sila2000
-print("Product of digits in number:")
-num = o_num = int(input("Enter a number: "))
+print("Product of digits in number (Non-negtive integer):")
+num = o_num = int(input("Enter number: "))
 
 mult_digit = 1
 
