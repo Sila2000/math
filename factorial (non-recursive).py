@@ -1,6 +1,6 @@
 #author Sila2000
 print("Factorial")
-num = int(input("Enter a number: "))
+num = int(input("Enter a non-negative integer: "))
 
 if num == 0:
     print(f"{num}! = 1")
