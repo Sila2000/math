@@ -1,6 +1,6 @@
 #author Sila2000
 print("Sum of digits in number:")
-num = o_num = int(input("Enter a number: "))
+num = o_num = int(input("Enter a non-negative integer: "))
 
 sum_digit = 0
 
