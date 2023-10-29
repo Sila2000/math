@@ -1,3 +1,7 @@
+#author Sila2000
+#It is a code which is intended to continuously prompt the user for integer input, add the integers to a list, and calculate the sum of the integers entered.
+#And, it shows the integer list if user wants to see.
+
 num_list = []
 sum_num = 0
 
