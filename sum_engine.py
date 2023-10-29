@@ -14,7 +14,8 @@ while True:
     print("O for exit and 1 to continue")
     if checker == '0':
         if len(num_list) == 1:
-            print("please enter at least two integers")
+            print("Please enter at least two integers. Try again!")
+            exit()
         else:
             sum_num += num_list[i]
             print(f"Sum = {sum_num}")
