@@ -1,3 +1,7 @@
+#author Sila2000
+#It is a code which is intended to continuously prompt the user for integer input, add the integers to a list, and calculate the product of the integers entered.
+#And, it shows the integer list if user wants to see.
+
 num_list = []
 mult_num = 1
 
@@ -10,7 +14,7 @@ while True:
     print("O for exit and 1 to continue")
     if checker == '0':
         if len(num_list) == 1:
-            print("please enter at least two integers")
+            print("Please enter at least two integers. Try again!")
             exit()
         else:
             mult_num *= num_list[i]
