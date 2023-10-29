@@ -5,7 +5,7 @@ def absolute_func(num):
         return -num
 
 
-print("\033[1mCalculate Absolute Value:")
+print("\033[1mCalculate Absolute Value:\033[0m")
 user_input = input("Enter the number: ")
 
 try:
