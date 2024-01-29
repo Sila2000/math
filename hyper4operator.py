@@ -1,3 +1,7 @@
+#tetration or hyper-4 operation.
+#example: 2^(2^2) = 2^4 = 16
+#here number of 2 is 3 which is considered as the height.
+
 def hyper4(a, b):
     a_ori = a
     if b >= 0:
@@ -10,7 +14,7 @@ def hyper4(a, b):
 
 
 a = int(input("Enter base = "))
-b = int(input("Enter hyperexponent = "))
+b = int(input("Enter height = "))
 
 print(f"hyper4({a},{b}) = ", hyper4(a,b))
     
